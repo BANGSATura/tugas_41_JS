@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tugas 41</title>
+</head>
+
+<body>
+  <p>Pilih Warna</p>
+  <select id="mySelect" name="" onchange="myfunction()">
+    <option value="default">---Pilih Warna---</option>
+    <option value="red">Merah</option>
+    <option value="blue">Biru</option>
+    <option value="yellow">Kuning</option>
+    <option value="white">Putih</option>
+  </select>
+  <script type="text/javascript">
+    function myfunction() {
+      var x = document.getElementById("mySelect").value;
+      document.body.style.backgroundColor = x;
+    }
+  </script>
+</body>
+
+</html>
